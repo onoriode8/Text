@@ -1,6 +1,7 @@
 import classes from './Account.module.css';
 import Details from './Details/Details';
-import { BiMenu } from 'react-icons/bi'
+import { BiMenu } from 'react-icons/bi';
+import manImage from '../../assests/IMG-20221111-WA0000.jpg';
 
 const Account = () => {
     return (
@@ -13,7 +14,7 @@ const Account = () => {
                        <div className={classes.endContainer}>
                         {/* <div> */}
                             <div></div>
-                            <img src="" alt='' />
+                            <img src={manImage} alt='' style={{marginTop: "-50px", width: "20%", borderRadius: '2em'}}/>
                         {/* </div> */}
                        </div>
                        <div className={classes.preferred}>Accounts</div>

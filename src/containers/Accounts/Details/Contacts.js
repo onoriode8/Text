@@ -2,6 +2,7 @@ import { BiPhone } from 'react-icons/bi';
 import { TfiLocationPin } from 'react-icons/tfi';
 import { TiMessages } from 'react-icons/ti';
 import { AiOutlineInfoCircle } from 'react-icons/ai';
+import cityLogo from '../../../assests/CNB_logo.jpeg';
 
 const contact = () => (
     <header>
@@ -11,7 +12,7 @@ const contact = () => (
             borderRadius: '5px'
         }}>
            <div style={{textAlign: 'center'}}>
-              City national bank Logo
+              <img src={cityLogo} alt='' style={{width: '40%'}}/>
            </div>
 
            <div style={{display: 'flex', justifyContent: 'center', margin: '10px'}}>

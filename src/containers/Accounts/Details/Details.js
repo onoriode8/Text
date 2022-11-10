@@ -1,5 +1,6 @@
 import Container from './Container';
 import Contacts from './Contacts';
+import Transaction from './Transaction';
 import { BsChevronRight } from 'react-icons/bs';
 
 const details = () => (
@@ -15,6 +16,10 @@ const details = () => (
         </div>
         <div>
             <Contacts />
+        </div>
+
+        <div>
+            <Transaction />
         </div>
     </header>
 );
