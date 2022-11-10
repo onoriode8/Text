@@ -1,4 +1,7 @@
-
+import { BiPhone } from 'react-icons/bi';
+import { TfiLocationPin } from 'react-icons/tfi';
+import { TiMessages } from 'react-icons/ti';
+import { AiOutlineInfoCircle } from 'react-icons/ai';
 
 const contact = () => (
     <header>
@@ -12,24 +15,24 @@ const contact = () => (
            </div>
 
            <div style={{display: 'flex', justifyContent: 'center', margin: '10px'}}>
-                <div style={{margin: '0px 10px'}}>
-                    <div>icon</div>
-                    <div>Locations</div>
+                <div style={{margin: '0px 15px'}}>
+                    <div style={{margin: '0px 20px'}}><TfiLocationPin /></div>
+                    <div><strong>Locations</strong></div>
                 </div>
 
-                <div style={{margin: '0px 10px'}}>
-                    <div>icon</div>
-                    <div>Call</div>
+                <div style={{margin: '0px 15px'}}>
+                    <div style={{margin: '0px 9px'}}><BiPhone /></div>
+                    <div><strong>Call</strong></div>
                 </div>
 
-                <div style={{margin: '0px 10px'}}>
-                    <div>icon</div>
-                    <div>Message</div>
+                <div style={{margin: '0px 15px'}}>
+                    <div style={{margin: '0px 18px'}}><TiMessages /></div>
+                    <div><strong>Message</strong></div>
                 </div>
 
-                <div style={{margin: '0px 10px'}}>
-                    <div>icon</div>
-                    <div>Info</div>
+                <div style={{margin: '0px 15px'}}>
+                    <div style={{margin: '0px 7px'}}><AiOutlineInfoCircle /></div>
+                    <div><strong>Info</strong></div>
                 </div>
            </div>
         </div>

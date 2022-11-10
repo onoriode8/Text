@@ -1,5 +1,6 @@
 import Container from './Container';
 import Contacts from './Contacts';
+import { BsChevronRight } from 'react-icons/bs';
 
 const details = () => (
     <header style={{padding: "40px 0px"}}>
@@ -7,7 +8,7 @@ const details = () => (
            <input type='radio' />
            <input type='radio' />
            <input type='radio' />
-           <div style={{margin: '0px 10px'}}>icon</div>
+           <div style={{margin: '0px 10px'}}><BsChevronRight /></div>
         </div>
         <div>
             <Container />

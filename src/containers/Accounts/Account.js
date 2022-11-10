@@ -1,9 +1,11 @@
 import classes from './Account.module.css';
 import Details from './Details/Details';
+import { BiMenu } from 'react-icons/bi'
 
 const Account = () => {
     return (
         <header>
+            <div><BiMenu style={{color: 'darkblue'}}/></div>
             <div>
                 <div>
                     <div>

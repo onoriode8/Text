@@ -1,4 +1,8 @@
-
+import { BiTransferAlt } from 'react-icons/bi';
+import { TbFileDollar } from 'react-icons/tb';
+import { TiMessages } from 'react-icons/ti';
+import { RiSendPlaneLine } from 'react-icons/ri';
+import { BsDownload } from 'react-icons/bs';
 
 const container = () => {
 
@@ -13,30 +17,30 @@ const container = () => {
     }
     return (
     <header>
-        <div style={{display: 'flex', margin: '30px 0px'}}>
+        <div style={{display: 'flex', margin: '30px 30px'}}>
             <div style={style}>
-                <div>Icon</div>
+                <div style={{margin: '0px 18px'}}><BiTransferAlt /></div>
                 <div>Transfer</div>
             </div>
 
             <div style={style}>
-                <div>Icon</div>
+                <div style={{margin: '0px 18px'}}><BsDownload /></div>
                 <div>Deposit</div>
             </div>
 
             <div style={style}>
-                <div>Icon</div>
-                <div>Pay</div>
+                <div style={{margin: '0px 18px'}}><TbFileDollar /></div>
+                <div style={{margin: '0px 15px'}}>Pay</div>
             </div>
 
             <div style={style}>
-                <div>Icon</div>
+                <div style={{margin: '0px 18px'}}><TiMessages /></div>
                 <div>Message</div>
             </div>
 
             <div style={style}>
-                <div>Icon</div>
-                <div>send</div>
+                <div style={{margin: '0px 18px'}}><RiSendPlaneLine /></div>
+                <div style={{margin: '0px 12px'}}>send</div>
             </div>
         </div>
     </header>
