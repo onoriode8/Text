@@ -1,0 +1,25 @@
+.nameContainer {
+    border: 1px solid #fff;
+    box-shadow: 1px 2px 3px 4px #1134;
+    border-radius: 0.7em;
+}
+
+.name {
+    font-size: 0.9em;
+    margin-bottom: 1px;
+}
+
+.preferred {
+    margin-top: -0.9px;
+    font-size: 12px;
+    font-family: Roman;
+}
+
+.endContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.end {
+    margin-top: -35px;
+}
