@@ -6,15 +6,15 @@ import manImage from '../../assests/IMG-20221111-WA0000.jpg';
 const Account = () => {
     return (
         <header>
-            <div><BiMenu style={{color: 'darkblue'}}/></div>
+            <div><BiMenu style={{color: '#426397'}}/></div>
             <div>
                 <div>
                     <div>
-                       <h1 className={classes.name}>Hi, Robert Mercado</h1>
+                       <h1 className={classes.name}><strong>Hi, Robert</strong></h1>
                        <div className={classes.endContainer}>
                         {/* <div> */}
                             <div></div>
-                            <img src={manImage} alt='' style={{marginTop: "-50px", width: "20%", borderRadius: '2em'}}/>
+                            <img src={manImage} alt='' style={{marginTop: "-70px", width: "20%", borderRadius: '2em'}}/>
                         {/* </div> */}
                        </div>
                        <div className={classes.preferred}>Accounts</div>
@@ -29,13 +29,13 @@ const Account = () => {
                     </div>
 
                    <div className={classes.nameContainer}>
-                       <p style={{color: '#fff', margin: '10px 15px'}}><strong>City Gold 001</strong></p>
+                       <p style={{color: '#fff', margin: '10px 15px', fontSize: '1.3em'}}><strong>City Gold 001</strong></p>
                        <div style={{margin: '5px 15px'}}>x6320</div>
                        <div className={classes.endContainer}>
                             <div></div>
                             <div className={classes.end}>
-                                <div style={{color: '#fff'}}>$5,300,000.59</div>
-                                <div style={{color: '#fff'}}>Available</div>
+                                <div style={{color: '#fff', fontSize: '1.5em'}}><strong>$5,300,200.33</strong></div>
+                                <div style={{color: '#fff'}}><strong>Available</strong></div>
                             </div>
                        </div>
                 </div>

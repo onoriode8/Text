@@ -17,22 +17,22 @@ const contact = () => (
 
            <div style={{display: 'flex', justifyContent: 'center', margin: '10px'}}>
                 <div style={{margin: '0px 15px'}}>
-                    <div style={{margin: '0px 20px'}}><TfiLocationPin /></div>
+                    <div style={{margin: '0px 20px', color: '#426397', fontSize: '1.5em'}}><TfiLocationPin /></div>
                     <div><strong>Locations</strong></div>
                 </div>
 
                 <div style={{margin: '0px 15px'}}>
-                    <div style={{margin: '0px 9px'}}><BiPhone /></div>
+                    <div style={{margin: '0px 9px', color: '#426397', fontSize: '1.5em'}}><BiPhone /></div>
                     <div><strong>Call</strong></div>
                 </div>
 
                 <div style={{margin: '0px 15px'}}>
-                    <div style={{margin: '0px 18px'}}><TiMessages /></div>
+                    <div style={{margin: '0px 18px', color: '#426397', fontSize: '1.5em'}}><TiMessages /></div>
                     <div><strong>Message</strong></div>
                 </div>
 
                 <div style={{margin: '0px 15px'}}>
-                    <div style={{margin: '0px 7px'}}><AiOutlineInfoCircle /></div>
+                    <div style={{margin: '0px 7px', color: '#426397', fontSize: '1.5em'}}><AiOutlineInfoCircle /></div>
                     <div><strong>Info</strong></div>
                 </div>
            </div>

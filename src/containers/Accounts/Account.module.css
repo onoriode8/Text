@@ -2,18 +2,18 @@
     border: 1px solid #fff;
     box-shadow: 1px 2px 3px 0px #1134;
     border-radius: 0.7em;
-    background: darkblue;
+    background: #426397;
 }
 
 .name {
-    font-size: 0.9em;
+    font-size: 2em;
     margin-bottom: 20px;
-    color: darkblue;
+    color: #426397;
 }
 
 .preferred {
     margin: 10px 0px;
-    font-size: 12px;
+    font-size: 20px;
     font-family: Roman;
 }
 
@@ -23,5 +23,5 @@
 }
 
 .end {
-    margin-top: -45px;
+    margin-top: -55px;
 }

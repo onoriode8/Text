@@ -9,7 +9,7 @@ const details = () => (
            <input type='radio' />
            <input type='radio' />
            <input type='radio' />
-           <div style={{margin: '0px 10px'}}><BsChevronRight /></div>
+           <div style={{margin: '0px 10px', color: '#426397'}}><BsChevronRight /></div>
         </div>
         <div>
             <Container />
