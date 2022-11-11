@@ -18,7 +18,7 @@ const container = () => {
     }
     return (
     <header>
-        <div style={{display: 'flex', margin: '30px -8px'}}>
+        <div style={{display: 'flex', margin: '30px 0px'}}>
             <div style={style}>
                 <div style={{margin: '0px 12px'}}><BiTransferAlt style={{fontSize: '1.3em'}}/></div>
                 <div style={{margin: '0px 0.5px'}}>Transfer</div>
