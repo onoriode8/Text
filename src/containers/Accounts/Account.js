@@ -6,7 +6,7 @@ import manImage from '../../assests/IMG-20221111-WA0000.jpg';
 const Account = () => {
     return (
         <header>
-            <div><BiMenu style={{color: '#426397'}}/></div>
+            <div><BiMenu style={{color: '#426397', fontSize: '2.2em'}}/></div>
             <div>
                 <div>
                     <div>
