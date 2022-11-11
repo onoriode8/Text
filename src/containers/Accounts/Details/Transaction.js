@@ -21,7 +21,7 @@ const transaction = () => (
         <hr />
         <div style={{display: "flex", justifyContent: "space-between",margin: '20px 15px'}}>
           <div style={{fontSize: '13px'}}>TRANSF TO KELLY TOM...</div>
-          <div style={{color: 'green', fontSize: '1em'}}>$500.00</div>
+          <div style={{fontSize: '1em'}}>$500.00</div>
         </div>
         <hr />
         <div style={{display: "flex", justifyContent: "space-between", margin: '18px 15px'}}>
