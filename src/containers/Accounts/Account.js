@@ -10,14 +10,14 @@ const Account = () => {
             <div>
                 <div>
                     <div>
-                       <h1 className={classes.name}><strong>Hi, Robert</strong></h1>
+                       <h1 className={classes.name}><strong>Hi, Jonathan</strong></h1>
                        <div className={classes.endContainer}>
                         {/* <div> */}
                             <div></div>
                             <img src={manImage} alt='' style={{marginTop: "-70px", width: "20%", borderRadius: '2em'}}/>
                         {/* </div> */}
                        </div>
-                       <div className={classes.preferred}>Accounts</div>
+                       <div className={classes.preferred}>Accounts</div> 
                        <div className={classes.endContainer}>
                             <div></div>
                             <div className={classes.end}><strong>...</strong></div>
